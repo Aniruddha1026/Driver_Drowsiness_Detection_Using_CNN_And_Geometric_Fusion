@@ -1,0 +1,15 @@
+{
+  "best_epoch": 17,
+  "best_val_acc": 0.9972,
+  "test_accuracy": 0.9861,
+  "test_f1": 0.9861,
+  "test_precision": 0.9861,
+  "test_recall": 0.9861,
+  "class_names": [
+    "closed",
+    "open"
+  ],
+  "model_params": 6010,
+  "train_samples": 1680,
+  "augmentation": "heavy"
+}

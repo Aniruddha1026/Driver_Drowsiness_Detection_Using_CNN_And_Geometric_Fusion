@@ -1,0 +1,16 @@
+{
+  "best_epoch": 5,
+  "best_val_acc": 0.9433,
+  "best_val_f1_yawn": 0.943,
+  "test_accuracy": 0.9421,
+  "test_f1": 0.9421,
+  "test_precision": 0.9426,
+  "test_recall": 0.9421,
+  "test_f1_no_yawn": 0.9437,
+  "test_f1_yawn": 0.9404,
+  "model_params": 105778,
+  "class_names": [
+    "no_yawn",
+    "yawn"
+  ]
+}

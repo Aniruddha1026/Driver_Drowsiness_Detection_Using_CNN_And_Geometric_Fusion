@@ -1,0 +1,30 @@
+{
+  "eye": {
+    "checkpoint": "modals\\eye3\\best_eye_model.pth",
+    "onnx_path": "modals\\onnx\\eye_model3.onnx",
+    "val_acc": 0.9972,
+    "input_shape": [
+      1,
+      24,
+      24
+    ],
+    "class_match_pct": 100.0,
+    "onnxrt_ms": 0.0456,
+    "size_kb": 23.2
+  },
+  "mouth": {
+    "checkpoint": "modals\\mouth\\best_mouth_model.pth",
+    "onnx_path": "modals\\onnx\\mouth_model.onnx",
+    "val_acc": 0.9433,
+    "input_shape": [
+      1,
+      64,
+      64
+    ],
+    "max_diff": 1.9073486328125e-06,
+    "class_match_pct": 100.0,
+    "pytorch_ms": 0.9222,
+    "onnxrt_ms": 0.1301,
+    "size_kb": 32.9
+  }
+}
